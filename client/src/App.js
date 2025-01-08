@@ -3,9 +3,9 @@ import mainPage from './components/mainPage';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <mainPage />
-    </div>
+    </>
   );
 }
 
