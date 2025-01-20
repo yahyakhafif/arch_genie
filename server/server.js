@@ -6,7 +6,7 @@ const port = 3000
 app.use(express.json());
 app.use(cors());
 
-app.get('/signin', (req, res) => {
+app.post('/signin', (req, res) => {
     res.json('sign in page')
 })
 

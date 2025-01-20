@@ -1,6 +1,7 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SigninPage from './components/SigninPage';
-import MainPage from './components/mainPage';
+import MainPage from './components/MainPage';
 import SignupPage from './components/SignupPage';
 import PrivateRoute from './components/PrivateRoute';
 import { AuthProvider } from './components/AuthProvider';
